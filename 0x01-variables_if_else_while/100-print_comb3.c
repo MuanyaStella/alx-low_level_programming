@@ -17,8 +17,11 @@ int main(void)
 			{
 				putchar(k + '0');
 				putchar(l + '0');
-				putchar(',');
-				putchar(' ');
+				if (k + l != 17)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
