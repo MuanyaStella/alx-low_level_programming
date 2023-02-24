@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/** 
+/**
  * main - function finds and prints largest prime factor for 612852475143
  *
  * Return: o successful
