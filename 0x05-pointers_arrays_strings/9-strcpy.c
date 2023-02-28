@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * _strcpy- copies the string pointed to by @src, including the terminating
@@ -11,12 +12,9 @@
 
 char *_strcpy(char *dest, char *src)
 {
-	int i = 0;
-
-	while (src[i])
-	{
+	int i = 0, j = strlen(src) + 1;
+	
+	for (; i <= j; i++)
 		dest[i] = src[i];
-		i++;
-	}
 	return (dest);
 }
