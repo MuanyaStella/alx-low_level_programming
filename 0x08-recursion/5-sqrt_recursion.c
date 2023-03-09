@@ -26,7 +26,7 @@ int check_sqrt(int num, int rt)
  *
  * Return: the natural square root of n, if n has a natural square root..
  * - 1, if n does not have a natural square root
- *       */
+ */
 int _sqrt_recursion(int n)
 {
 	int root = 0;
