@@ -1,11 +1,13 @@
 #include "main.h"
-
+#include <stdlib.h>
+#include <stdio.h>
 /**
  * create_file - Creates a file.
  * @filename: ointer to the name of the file to create.
  * @text_content: pointer to a string to write to the file.
  *
- * Return: -1 If the function fails
+ * Return: -1 If the function fails.
+ * return 1 if successful
  * Otherwise return  - 1.
  */
 
